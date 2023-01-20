@@ -11,6 +11,7 @@ function Button(props) {
         // setSignArray([props.signIdentifier === 'cross' ? -1 : 1]);
         // props.signIdentifier === 'cross' ? setCounter(0) : setCounter(1);
         // console.log(signArray);
+
     }, []);
 
     function checkWinner(myArray) {
@@ -152,7 +153,7 @@ function Button(props) {
         <div className='button-div' myflag='used' onClick={clickHandler} id={props.id}>
             {closeHandler && < div><i className='fa fa-close'>{props.children}</i></div>}
             {circleHandler && <div><i className='fa fa-circle-o'>{props.children}</i></div>}
-            {console.log(props.counter)}
+
 
 
         </div >
