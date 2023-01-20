@@ -6,7 +6,7 @@ function Modal(props) {
     const [winner, setWinner] = useState(props.winner);
 
     const modalHandler = (event) => {
-        console.log(event);
+        // console.log(event);
         setClasses('hidden');
         window.location.reload(false);
     }
